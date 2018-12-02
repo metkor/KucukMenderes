@@ -15,7 +15,7 @@
 <access origin="http://www.kucukmenderes.com.tr" />
 
 <preference name="SplashScreen" value="screen" />
-<preference name="SplashScreenDelay" value="50000" />
+<preference name="SplashScreenDelay" value="5000" />
 	  <splash src="splash.png" platform="android" />
 <icon src="icon.png" />
 
