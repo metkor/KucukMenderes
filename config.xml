@@ -17,8 +17,18 @@
 <access origin="http://www.kucukmenderes.com.tr" />
 <platform name="android">
     <!-- you can use any density that exists in the Android project -->
-    <splash src="res/screen/android/splash.png" />
-</platform>
+<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="res/screen/android/splash.png" density="land-hdpi"/>
+    <splash src="res/screen/android/splash.png" density="land-ldpi"/>
+    <splash src="res/screen/android/splash.png" density="land-mdpi"/>
+    <splash src="res/screen/android/splash.png" density="land-xhdpi"/>
+
+    <splash src="res/screen/android/splash.png" density="port-hdpi"/>
+    <splash src="res/screen/android/splash.png" density="port-ldpi"/>
+    <splash src="res/screen/android/splash.png" density="port-mdpi"/>
+    <splash src="res/screen/android/splash.png" density="port-xhdpi"/>
+</platform></platform>
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
 
