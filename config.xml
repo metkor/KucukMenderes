@@ -10,6 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="android" spec="~7.1.2" />
+	  <splash src="splash.png" />
+
 <splash src="splash.png" platform="android" qualifier="ldpi" />
 <splash src="splash.png" platform="android" qualifier="mdpi" />
 <splash src="splash.png" platform="android" qualifier="hdpi" />
@@ -22,6 +24,7 @@
 <icon src="icon.png" />
 
 <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
+<plugin name="cordova-plugin-splashscreen" />
 <access origin="http://www.kucukmenderes.com.tr" />
 
 
