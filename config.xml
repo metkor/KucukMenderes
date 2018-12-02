@@ -15,11 +15,5 @@
 <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 <plugin name="cordova-plugin-splashscreen" />
 <access origin="http://www.kucukmenderes.com.tr" />
-<preference name="SplashScreen" value="screen"/>
-<preference name="AutoHideSplashScreen" value="false"/>
-<preference name="SplashShowOnlyFirstTime" value="false"/>
-<preference name="ShowSplashScreenSpinner" value="false"/>
-<preference name="FadeSplashScreen" value="false"/>
-<preference name="SplashScreenDelay" value="20000"/>
 <splash src="splash.png"/>
 </widget>
