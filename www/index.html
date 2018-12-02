@@ -16,6 +16,9 @@
     // device APIs are available
     //
     function onDeviceReady() {
+	setTimeout(function () {
+        navigator.splashscreen.hide();
+    }, 50);
          var ref = cordova.InAppBrowser.open('http://www.kucukmenderes.com.tr', '_self', 'location=no');
          ref.addEventListener('loadstart', function(event) {  });
          ref.addEventListener('loadstop', function(event) { });
