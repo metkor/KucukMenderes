@@ -30,6 +30,6 @@
     <splash src="res/screen/android/splash.png" density="port-xhdpi"/>
 </platform></platform>
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="5000" />
 
 </widget>
