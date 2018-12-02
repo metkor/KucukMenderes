@@ -59,7 +59,7 @@
 	<splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
 </platform>
 <preference name="AutoHideSplashScreen" value="true" />
- <preference name="SplashScreenDelay" value="3000" />
+ <preference name="SplashScreenDelay" value="10000" />
 <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
 <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
 <access origin="http://www.kucukmenderes.com.tr" />
