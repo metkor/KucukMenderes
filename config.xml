@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
-xmlns:android = "http://schemas.android.com/apk/res/android"
 >
     <name>Küçük Menderes</name>
     <description>
@@ -12,9 +11,6 @@ xmlns:android = "http://schemas.android.com/apk/res/android"
     <content src="index.html" />
     <access origin="*" />
     <engine name="android" spec="~7.1.2" />
-<config-file platform="android" parent="/manifest" mode="merge">
-    <application android:theme="@android:style/Theme.Translucent.NoTitleBar"></application>
-</config-file>
 <platform name="android">
 	<icon qualifier="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
 	<icon qualifier="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
